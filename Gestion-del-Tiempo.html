@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ContTextos.css">
+    <script src="js/quizGestTiempo.js"></script>
+    <script src="js/NavMenu.js"></script>
+    <title>DigitalMente</title>
+</head>
+
+<body>
+    <div class="BarraIzq">
+        <div class="Titulo">
+            <h1><a href="index.html">Digital<br>Mente</a>
+
+            </h1>
+        </div>
+        <div class="Navegacion">
+            <ul>
+                <li><a href="Bienestar-Digital.html">Bienestar Digital</a></li>
+                <li><a href="Ciberseguridad.html">Ciberseguridad</a></li>
+                <li><a href="Habitos-Saludables.html">Habitos Saludables</a></li>
+                <li><a href="Gestion-del-Tiempo.html">Gestion del tiempo</a></li>
+                <li><a href="Inteligencia-Artificial-y-Etica-Digital.html">Inteligencia Artificial Y Etica Digital</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="QuizBotton">
+            <a href="#" onclick="quizAleatorio()">
+                <h2>QUIZ</h2>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="Cuerpo">
+        <div id="barraProg"> </div>
+        <!-- barra de busqueda y botones -->
+        <div class="BarraBusqueda">
+            <img src="images/lupa.png" alt="" id="iconoBuscar" style="cursor:pointer;">
+            <div class="vacio"></div>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar..." id="inputBuscar">
+            </div>
+        </div>
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'es', includedLanguages: 'en,es' },
+                    'google_translate_element'
+                );
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <h2>Lecturas Recientes</h2>
+        <div class="BotRecientes">
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="ContPrincipal">
+
+            <h2 class="TitPrinc">Gestión del <br> Tiempo Digital</h2>
+
+            <div class="Secciones">
+                <ul>
+                    <li onclick="document.getElementById('MiMet').scrollIntoView({behavior: 'smooth'})">Mitos y metas
+                    </li>
+                    <li onclick="document.getElementById('HerCom').scrollIntoView({behavior: 'smooth'})">Herramientas y
+                        cómo aprender a decir NO</li>
+                </ul>
+            </div>
+            <p>La gestión del tiempo es la capacidad de planificar y organizar las tareas de manera que se maximice la
+                productividad y se reduzca el estrés. En el contexto digital, esta habilidad cobra especial relevancia
+                porque el entorno en línea está diseñado para capturar y retener la atención: notificaciones, redes
+                sociales, entretenimiento y flujos de información constante compiten directamente con las
+                responsabilidades académicas y laborales. <br>
+                Gestionar el tiempo de manera efectiva no significa hacer más cosas en menos tiempo, sino hacer las
+                cosas correctas en el momento adecuado. Los estudiantes que dominan esta habilidad pueden priorizar sus
+                tareas, establecer metas realistas y asignar tiempo apropiado a cada actividad. Este enfoque
+                estructurado minimiza la procrastinación y garantiza que los plazos se cumplan sin necesidad de recurrir
+                al trabajo de último minuto y el estrés que este conlleva. <br>
+                La investigación académica ha demostrado que la gestión del tiempo es un factor clave no solo en el
+                rendimiento académico, sino también en el mantenimiento de la salud mental, la resiliencia emocional y
+                la satisfacción personal — componentes esenciales del éxito tanto en la universidad como en la vida
+                profesional.</p>
+
+            <div class="Linkimg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oFzXfi9IGWw?si=SFlFEVPba-ceyTpi"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h3 id="MiMet">Mitos y metas</h3>
+            <p>Existen varios mitos extendidos sobre la gestión del tiempo y la procrastinación que vale la pena
+                desmentir. El primero y más común es creer que la procrastinación es simplemente una cuestión de falta
+                de motivación o de pereza. En realidad, la procrastinación es con mayor frecuencia una estrategia para
+                evitar emociones incómodas que ciertas tareas generan, como la ansiedad, la sensación de inferioridad o
+                la incertidumbre. Esta tendencia está arraigada en nuestra neurobiología, no en nuestra voluntad.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-pixabay-164686.jpg" alt="">
+                <p>https://www.pexels.com/photo/close-up-photo-of-ledger-s-list-164686/</p>
+            </div>
+
+            <p>
+                Otro mito frecuente es que trabajar bajo presión y con estrés produce mejores resultados. Si bien cierto
+                nivel de tensión puede ayudar a mantener el enfoque, el ciclo intenso de procrastinación contribuye al
+                estrés crónico, al síndrome del impostor y a la autoduda. Igualmente, muchos creen que sentirse culpable
+                por procrastinar los motivará a actuar, cuando en realidad la culpa profundiza los sentimientos de
+                incompetencia y alimenta el ciclo, haciéndolo más difícil de romper.
+                En cuanto a las metas, la investigación es clara: los estudiantes tienden a subestimar o sobreestimar el
+                tiempo que necesitan para completar una tarea, y rara vez hacen estimaciones precisas. Por ello,
+                establecer metas específicas, alcanzables y con plazos definidos es fundamental. Las metas deben
+                dividirse en pasos pequeños y manejables, lo que reduce la sensación de agobio y hace más probable el
+                inicio de la acción. Adoptar una mentalidad de crecimiento respecto a la procrastinación — es decir,
+                creer que este comportamiento puede cambiar — también se asocia con mejores resultados en el logro de
+                metas académicas.
+            </p>
+
+
+            <h3 id="HerCom">Herramientas y cómo aprender a decir no</h3>
+            <p>Entre las herramientas más efectivas para gestionar el tiempo en entornos digitales se encuentran las
+                siguientes. Las listas de tareas y calendarios digitales, como Google Calendar o Notion, permiten
+                visualizar los compromisos, establecer prioridades y evitar que tareas importantes queden olvidadas. La
+                Técnica Pomodoro — trabajar en bloques de 25 minutos con descansos breves — ayuda a mantener la
+                concentración y a combatir la tendencia a procrastinar al reducir la magnitud percibida de cada sesión
+                de trabajo. Los temporizadores de aplicaciones y las funciones de bienestar digital disponibles en
+                smartphones permiten establecer límites al uso de redes sociales y entretenimiento, liberando tiempo
+                para las actividades prioritarias. Herramientas como la Matriz de Eisenhower, que clasifica las tareas
+                según su urgencia e importancia, ayudan a tomar decisiones más conscientes sobre en qué invertir la
+                energía cada día. <br>
+                Aprender a decir no es quizás la habilidad más subestimada de la gestión del tiempo. En el entorno
+                universitario y digital, las solicitudes, invitaciones y distracciones son constantes. Decir no no es
+                una señal de descortesía ni de falta de compromiso; es un acto de autogestión que protege el tiempo y la
+                energía para lo que realmente importa. Una estrategia útil es la pausa consciente: antes de aceptar
+                cualquier compromiso nuevo, detenerse a evaluar si es coherente con las metas actuales y si hay
+                capacidad real para asumirlo. También ayuda establecer bloques de tiempo protegido en el calendario —
+                momentos en los que no se responden mensajes, no se aceptan interrupciones y el foco está puesto
+                exclusivamente en el trabajo profundo.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-fauxels-3183197.jpg" alt="">
+                <p>https://www.pexels.com/photo/photo-of-people-doing-handshakes-3183197/</p>
+
+            </div>
+
+            <div class="Quizz" id="Quizz">
+                <h3>Quiz</h3>
+
+                <p><strong>1. ¿Qué es la gestión del tiempo en el contexto digital?</strong></p>
+                <label><input type="radio" name="p1" value="a"> La habilidad de usar el mayor número de aplicaciones
+                    posibles para ser productivo</label><br>
+                <label><input type="radio" name="p1" value="b"> La capacidad de planificar y organizar tareas para
+                    maximizar la productividad y reducir el estrés en entornos digitales</label><br>
+                <label><input type="radio" name="p1" value="c"> Un software que administra automáticamente las
+                    actividades del usuario</label><br>
+                <label><input type="radio" name="p1" value="d"> El tiempo que se dedica exclusivamente a actividades
+                    recreativas en línea</label><br>
+
+                <p><strong>2. Según la investigación, ¿cuál es la causa más frecuente de la procrastinación?</strong>
+                </p>
+                <label><input type="radio" name="p2" value="a"> La pereza y la falta de disciplina personal</label><br>
+                <label><input type="radio" name="p2" value="b"> El exceso de tareas asignadas por los
+                    profesores</label><br>
+                <label><input type="radio" name="p2" value="c"> La tendencia a evitar emociones incómodas que ciertas
+                    tareas generan</label><br>
+                <label><input type="radio" name="p2" value="d"> El uso de redes sociales durante las horas de
+                    estudio</label><br>
+
+                <p><strong>3. ¿Cuál de los siguientes es un mito sobre la procrastinación?</strong></p>
+                <label><input type="radio" name="p3" value="a"> Puede estar vinculada a factores emocionales y
+                    cognitivos</label><br>
+                <label><input type="radio" name="p3" value="b"> Sentirse culpable por procrastinar motiva a actuar de
+                    manera efectiva</label><br>
+                <label><input type="radio" name="p3" value="c"> Puede afectar el rendimiento académico y la salud
+                    mental</label><br>
+                <label><input type="radio" name="p3" value="d"> Establecer metas claras ayuda a reducirla</label><br>
+
+                <p><strong>4. ¿Qué hace la Técnica Pomodoro para mejorar la gestión del tiempo?</strong></p>
+                <label><input type="radio" name="p4" value="a"> Bloquea automáticamente el acceso a redes sociales
+                    durante el estudio</label><br>
+                <label><input type="radio" name="p4" value="b"> Divide el trabajo en bloques de tiempo concentrado con
+                    descansos breves para mantener el enfoque</label><br>
+                <label><input type="radio" name="p4" value="c"> Genera listas de tareas automáticamente a partir del
+                    calendario del usuario</label><br>
+                <label><input type="radio" name="p4" value="d"> Clasifica las tareas según su nivel de dificultad
+                    académica</label><br>
+
+                <button onclick="verificar()">Ver resultado</button>
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>

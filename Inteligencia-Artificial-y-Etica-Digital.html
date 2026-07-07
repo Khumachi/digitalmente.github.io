@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ContTextos.css">
+    <script src="js/quizIntArtf.js"></script>
+    <script src="js/NavMenu.js"></script>
+    <title>DigitalMente</title>
+</head>
+
+<body>
+    <div class="BarraIzq">
+        <div class="Titulo">
+            <h1><a href="index.html">Digital<br>Mente</a>
+
+            </h1>
+        </div>
+        <div class="Navegacion">
+            <ul>
+                <li><a href="Bienestar-Digital.html">Bienestar Digital</a></li>
+                <li><a href="Ciberseguridad.html">Ciberseguridad</a></li>
+                <li><a href="Habitos-Saludables.html">Habitos Saludables</a></li>
+                <li><a href="Gestion-del-Tiempo.html">Gestion del tiempo</a></li>
+                <li><a href="Inteligencia-Artificial-y-Etica-Digital.html">Inteligencia Artificial Y Etica Digital</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="QuizBotton">
+            <a href="#" onclick="quizAleatorio()">
+                <h2>QUIZ</h2>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="Cuerpo">
+        <div id="barraProg"> </div>
+        <!-- barra de busqueda y botones -->
+        <div class="BarraBusqueda">
+            <img src="images/lupa.png" alt="" id="iconoBuscar" style="cursor:pointer;">
+            <div class="vacio"></div>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar..." id="inputBuscar">
+            </div>
+        </div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'es', includedLanguages: 'en,es' },
+                    'google_translate_element'
+                );
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <h2>Lecturas Recientes</h2>
+        <div class="BotRecientes">
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="ContPrincipal">
+
+            <h2 class="TitPrinc">Inteligencia Artificial y <br> Ética Digital</h2>
+
+            <div class="Secciones">
+                <ul>
+                    <li onclick="document.getElementById('QueEs').scrollIntoView({behavior: 'smooth'})">¿Qué es la IA y
+                        cómo impacta la vida universitaria?</li>
+                    <li onclick="document.getElementById('UsEti').scrollIntoView({behavior: 'smooth'})">Uso ético y
+                        responsable de la IA</li>
+                </ul>
+            </div>
+            <p>La inteligencia artificial (IA) es un conjunto de tecnologías que permiten a las máquinas realizar tareas
+                que normalmente requieren inteligencia humana, como el reconocimiento del lenguaje, la toma de
+                decisiones, el análisis de datos y la generación de contenido. En los últimos años, su integración en la
+                vida cotidiana y en los entornos educativos ha crecido de manera acelerada, transformando la forma en
+                que aprendemos, trabajamos y nos relacionamos.
+                Al integrarse en diversas áreas del conocimiento y la práctica, la IA plantea desafíos éticos
+                significativos que requieren una atención cuidadosa para garantizar un uso responsable y beneficioso de
+                estas tecnologías. Para los estudiantes universitarios, esto implica no solo aprender a usarlas, sino
+                también desarrollar una comprensión crítica de sus implicaciones en términos de privacidad, veracidad,
+                autoría y equidad. <br>
+                La expansión del uso de algoritmos e inteligencia artificial en las universidades ha generado
+                oportunidades para mejorar la eficiencia institucional y personalizar el aprendizaje, pero también ha
+                intensificado desafíos éticos y organizacionales que las instituciones apenas comienzan a abordar con
+                políticas claras.</p>
+
+            <div class="Linkimg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sZnP0abGsxs?si=--_wc0BFYDUzXiLw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h3 id="QueEs">¿Qué es la IA y cómo impacta la vida universitaria?</h3>
+            <p>La inteligencia artificial ha revolucionado la educación superior al permitir la creación de sistemas de
+                aprendizaje adaptativos que se ajustan a las necesidades individuales de los estudiantes, facilitando un
+                proceso de aprendizaje más personalizado y efectivo. Herramientas basadas en IA ofrecen nuevas
+                estrategias para la enseñanza, la evaluación y la retroalimentación, promoviendo metodologías activas,
+                automatización de tareas administrativas, seguimiento personalizado del progreso académico y mejoras en
+                la comunicación entre estudiantes y docentes. <br>
+                En el contexto universitario actual, el uso de la IA entre los estudiantes es masivo. El 89% de los
+                estudiantes universitarios emplea alguna herramienta de IA generativa, especialmente aquellas que
+                resuelven consultas y generan conversaciones. Sus principales usos incluyen resolver dudas o problemas
+                específicos, investigar y analizar datos, y redactar trabajos académicos. Sin embargo, solo el 34% de
+                los estudiantes ha recibido formación específica por parte de su universidad para aprender a usar estas
+                herramientas de manera adecuada y ética. <br>
+                Este escenario revela una brecha importante: los estudiantes usan masivamente la IA, pero con escasa
+                formación sobre sus límites, riesgos y responsabilidades. Cuanto más uso hacen los estudiantes de la IA
+                para producir sus trabajos, más difícil resulta precisar la autoría real y la fiabilidad del proceso
+                evaluativo, lo que pone en cuestión la integridad académica y exige nuevos marcos de convivencia con
+                estas tecnologías.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-googledeepmind-18069696.jpg" alt="">
+                <p>https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l-18069696/
+                </p>
+            </div>
+
+
+            <h3 id="UsEti">Uso ético y responsable de la IA</h3>
+            <p>El uso ético de la inteligencia artificial implica que los estudiantes y profesionales desarrollen una
+                relación transparente, crítica y consciente con estas herramientas. La investigación reciente sobre este
+                tema identifica varias dimensiones fundamentales que deben guiar ese uso. <br>
+                En primer lugar, la transparencia y la honestidad académica: declarar cuándo y cómo se ha utilizado la
+                IA en la elaboración de un trabajo es una práctica ética básica. Utilizar estas herramientas para
+                reemplazar el pensamiento propio sin reconocerlo constituye una forma de deshonestidad intelectual que,
+                además, limita el desarrollo de las competencias del propio estudiante. <br>
+                En segundo lugar, la protección de datos personales: al interactuar con plataformas de IA, los usuarios
+                comparten información que puede ser almacenada, procesada o utilizada con fines que no siempre son
+                transparentes. Es responsabilidad del usuario informarse sobre las políticas de privacidad de las
+                herramientas que utiliza y evitar compartir datos sensibles en estos entornos. <br>
+                En tercer lugar, el pensamiento crítico frente a los resultados: la IA puede generar información
+                incorrecta, sesgada o desactualizada con aparente autoridad. Verificar siempre las fuentes, contrastar
+                la información con fuentes académicas confiables y no asumir que todo lo que produce una IA es verdadero
+                son hábitos esenciales para un uso responsable. <br>
+                Finalmente, la formación continua en ética aplicada a la IA es una responsabilidad compartida entre
+                estudiantes, docentes e instituciones. Existe un consenso creciente sobre la necesidad de integrar la
+                ética en los programas universitarios, de manera que los futuros profesionales desarrollen no solo
+                competencias técnicas, sino también la capacidad de tomar decisiones responsables en entornos donde la
+                inteligencia artificial tenga un papel relevante.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-dkomov-34804018.jpg" alt="">
+                <p>https://www.pexels.com/photo/ai-assisted-code-debugging-on-screen-display-34804018/</p>
+
+            </div>
+
+            <div class="Quizz" id="Quizz">
+                <h3>Quiz</h3>
+
+                <p><strong>1. ¿Qué es la inteligencia artificial?</strong></p>
+                <label><input type="radio" name="p1" value="a"> Un programa exclusivo para ingenieros de sistemas y
+                    desarrolladores de software</label><br>
+                <label><input type="radio" name="p1" value="b"> Un conjunto de tecnologías que permiten a las máquinas
+                    realizar tareas que normalmente requieren inteligencia humana</label><br>
+                <label><input type="radio" name="p1" value="c"> Una base de datos que almacena toda la información
+                    disponible en internet</label><br>
+                <label><input type="radio" name="p1" value="d"> Un sistema operativo avanzado diseñado para reemplazar
+                    los computadores tradicionales</label><br>
+
+                <p><strong>2. Según los datos más recientes, ¿qué porcentaje de estudiantes universitarios usa
+                        herramientas de IA generativa?</strong></p>
+                <label><input type="radio" name="p2" value="a"> 34%</label><br>
+                <label><input type="radio" name="p2" value="b"> 55%</label><br>
+                <label><input type="radio" name="p2" value="c"> 74%</label><br>
+                <label><input type="radio" name="p2" value="d"> 89%</label><br>
+
+                <p><strong>3. ¿Cuál de las siguientes describe mejor el uso ético de la IA en contextos
+                        académicos?</strong></p>
+                <label><input type="radio" name="p3" value="a"> Usar la IA para generar trabajos completos sin
+                    mencionarlo, siempre que el resultado sea de calidad</label><br>
+                <label><input type="radio" name="p3" value="b"> Declarar de manera transparente cuándo y cómo se ha
+                    utilizado la IA en la elaboración de un trabajo</label><br>
+                <label><input type="radio" name="p3" value="c"> Evitar completamente el uso de la IA para no correr
+                    riesgos éticos</label><br>
+                <label><input type="radio" name="p3" value="d"> Usar la IA solo para materias de tecnología o
+                    programación</label><br>
+
+                <p><strong>4. ¿Qué riesgo representa el uso de IA sin pensamiento crítico?</strong></p>
+                <label><input type="radio" name="p4" value="a"> Que el estudiante aprenda más de lo necesario para su
+                    carrera</label><br>
+                <label><input type="radio" name="p4" value="b"> Que la IA reemplace a los profesores en las
+                    universidades</label><br>
+                <label><input type="radio" name="p4" value="c"> Que el estudiante acepte información incorrecta, sesgada
+                    o desactualizada como verdadera</label><br>
+                <label><input type="radio" name="p4" value="d"> Que el acceso a internet se vuelva más lento por el alto
+                    tráfico de datos</label><br>
+
+                <button onclick="verificar()">Ver resultado</button>
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>

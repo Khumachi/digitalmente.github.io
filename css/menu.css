@@ -1,0 +1,182 @@
+/*Fuentes instaladas*/
+@font-face {
+    font-family: 'SF Pro';
+    src: url('../fonts/sf-pro/SFProDisplay-Light.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Babel Sans';
+    src: url('../fonts/babel-sans/BabelSans.ttf') format('opentype');
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Titulo h1 {
+    font-family: 'SF Pro', helvetica;
+    font-size: 80px;
+    line-height: 0.8;
+    margin: 0;
+    padding: 60px 60px 40px 60px;
+    text-align: center;
+}
+
+.Navegacion ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.BarraIzq li {
+    justify-content: center;
+    align-items: left;
+    font-family: 'Babel Sans', helvetica;
+    font-size: 20px;
+    padding: 20px 60px 20px 60px;
+    transition: 0.2s;
+}
+
+.BarraIzq {
+    background-color: #C8B6FF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    padding: 10px 10px 0px 10px;
+}
+
+.BarraIzq a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: left;
+}
+
+.BarraIzq li:hover {
+    background: #FFD6FF;
+}
+
+.QuizBotton {
+    background-color: #E7C6FF;
+    height: 100%;
+    width: 43vh;
+    align-self: center;
+}
+
+.QuizBotton h2 {
+    font-family: 'Babel Sans', helvetica;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 20px;
+}
+
+.QuizBotton a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    text-align: right;
+}
+
+#google_translate_element {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.buscar input {
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: 'Babel Sans', helvetica;
+    width: 100%;
+    background: transparent;
+    padding: 10px 30px;
+    height: 40px;
+    color: #000;
+}
+
+/* Responsive */
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .BarraIzq {
+        width: 30%;
+    }
+
+    .Titulo h1 {
+        font-size: 50px;
+        padding: 30px;
+    }
+
+    .BarraIzq li {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+
+    .QuizBotton {
+        width: 100%;
+    }
+
+    .QuizBotton h2 {
+        font-size: 35px;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .BarraIzq {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .Titulo h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .Navegacion ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .BarraIzq li {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .QuizBotton {
+        width: 100%;
+        height: 60px;
+    }
+
+    .QuizBotton h2 {
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
+}

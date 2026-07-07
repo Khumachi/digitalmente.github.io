@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ContTextos.css">
+    <script src="js/quizBieDig.js"></script>
+    <script src="js/NavMenu.js"></script>
+    <title>DigitalMente</title>
+</head>
+
+<body>
+    
+    <div class="BarraIzq">
+        <div class="Titulo">
+            <h1><a href="index.html">Digital<br>Mente</a>
+
+            </h1>
+        </div>
+        <div class="Navegacion">
+            <ul>
+                <li><a href="Bienestar-Digital.html">Bienestar Digital</a></li>
+                <li><a href="Ciberseguridad.html">Ciberseguridad</a></li>
+                <li><a href="Habitos-Saludables.html">Habitos Saludables</a></li>
+                <li><a href="Gestion-del-Tiempo.html">Gestion del tiempo</a></li>
+                <li><a href="Inteligencia-Artificial-y-Etica-Digital.html">Inteligencia Artificial Y Etica Digital</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="QuizBotton">
+            <a href="#" onclick="quizAleatorio()">
+                <h2>QUIZ</h2>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="Cuerpo">
+        <div id="barraProg"> </div>
+
+        <!-- barra de busqueda y botones -->
+        <div class="BarraBusqueda">
+            <img src="images/lupa.png" alt="" id="iconoBuscar" style="cursor:pointer;">
+            <div class="vacio"></div>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar..." id="inputBuscar">
+            </div>
+        </div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'es', includedLanguages: 'en,es' },
+                    'google_translate_element'
+                );
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <h2>Lecturas Recientes</h2>
+        <div class="BotRecientes">
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="ContPrincipal">
+
+            <h2 class="TitPrinc">Bienestar <br> Digital</h2>
+
+            <div class="Secciones">
+                <ul>
+                    <li onclick="document.getElementById('MetUtil').scrollIntoView({behavior: 'smooth'})"">Metodologías Útiles</li>
+                    <li onclick=" document.getElementById('RiOp').scrollIntoView({behavior: 'smooth' })"">Riesgos y
+                        Oportunidades</li>
+                </ul>
+            </div>
+            <p>El bienestar digital hace referencia al impacto que las tecnologías y los servicios digitales tienen
+                sobre la salud mental, física, social y emocional de las personas. Se trata de un concepto que abarca
+                tanto la experiencia individual como la responsabilidad colectiva frente al uso de la tecnología. <br>
+                La integración masiva de la tecnología en la vida cotidiana, con más de 5.000 millones de usuarios de
+                internet en 2024, representa al mismo tiempo oportunidades y desafíos. Aunque las herramientas digitales
+                potencian la comunicación, la productividad y el acceso a la información, el uso excesivo de la
+                tecnología se ha asociado con adicción digital, problemas de salud mental y desequilibrios entre la vida
+                laboral y personal.<br>
+                Las definiciones existentes convergen en tres perspectivas: el bienestar digital como concepto emergente
+                influenciado por el uso de la tecnología, como el impacto percibido del compromiso digital en el
+                bienestar individual, y como una estrategia de uso equilibrado dentro del entorno digital.</p>
+
+            <div class="Linkimg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NZuJB8hJAjY?si=9gmTcWsqDAu03ovu"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+            <h3 id="MetUtil">Metodologias Utiles</h3>
+            <p>Para promover el bienestar digital de manera efectiva, la investigación reciente propone diversas
+                estrategias prácticas. Entre las más destacadas se encuentran la gestión del tiempo de pantalla, los
+                programas de alfabetización digital y las políticas organizacionales que incluyen iniciativas de
+                formación y bienestar para fomentar un compromiso digital más saludable. Desde la investigación
+                académica, se recurre tanto a métodos cualitativos como entrevistas y etnografías, como a evaluaciones
+                cuantitativas que analizan cómo las personas piensan y sienten respecto a su conectividad, incluyendo
+                métodos de muestreo de experiencia que capturan la naturaleza individual, temporal y contextual de los
+                efectos de los medios digitales.
+                A nivel práctico, plataformas como Google Digital Wellbeing y organizaciones como el Center for Humane
+                Technology han desarrollado herramientas y estrategias accesibles para que los usuarios ajusten sus
+                hábitos tecnológicos según sus propias metas de bienestar.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-katerina-holmes-5905700.jpg" alt="">
+                <p>https://www.pexels.com/photo/black-boy-watching-video-on-laptop-5905700/</p>
+            </div>
+
+
+            <h3 id="RiOp">Riesgos y oportunidades</h3>
+            <p>La tecnología digital puede mejorar nuestra vida, pero también representa un riesgo importante de ampliar
+                la desigualdad social y bloquear oportunidades para quienes no tienen las habilidades necesarias para
+                navegar el mundo en línea de forma segura. Una combinación de habilidades técnicas, emocionales y
+                sociales es condición previa para que las personas integren sus vidas digital y real de manera
+                equilibrada, y eviten los problemas de salud mental y otros riesgos vinculados al abuso de las
+                tecnologías en línea. Entre las oportunidades, se destacan el acceso a la información, la mejora de la
+                comunicación, el aprendizaje en línea y el desarrollo de habilidades digitales que abren posibilidades
+                laborales y sociales. Entre los riesgos, se identifican el uso problemático de internet, el tiempo
+                excesivo frente a pantallas, el impacto en el desarrollo cognitivo, el uso de redes sociales como factor
+                de malestar, y el avance de la inteligencia artificial como nuevo desafío para el bienestar.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-pixabay-60504.jpg" alt="">
+                <p>https://www.pexels.com/photo/security-logo-60504/</p>
+
+            </div>
+
+            <div class="Quizz" id="Quizz">
+                <h3>Quiz</h3>
+
+                <p><strong>1. ¿Qué abarca el concepto de bienestar digital?</strong></p>
+                <label><input type="radio" name="p1" value="a"> Solo la salud física relacionada con el uso de
+                    dispositivos</label><br>
+                <label><input type="radio" name="p1" value="b"> El impacto de las tecnologías en la salud mental,
+                    física, social y emocional</label><br>
+                <label><input type="radio" name="p1" value="c"> El tiempo máximo permitido frente a una
+                    pantalla</label><br>
+                <label><input type="radio" name="p1" value="d"> El acceso a internet en zonas rurales</label><br>
+
+                <p><strong>2. ¿Cuál de las siguientes es una metodología útil para promover el bienestar
+                        digital?</strong></p>
+                <label><input type="radio" name="p2" value="a"> Eliminar completamente el uso de redes
+                    sociales</label><br>
+                <label><input type="radio" name="p2" value="b"> Usar únicamente dispositivos Apple</label><br>
+                <label><input type="radio" name="p2" value="c"> Gestión del tiempo de pantalla y programas de
+                    alfabetización digital</label><br>
+                <label><input type="radio" name="p2" value="d"> Evitar el uso de internet en horario laboral</label><br>
+
+                <p><strong>3. ¿Con qué se ha asociado el uso excesivo de la tecnología?</strong></p>
+                <label><input type="radio" name="p3" value="a"> Mayor productividad laboral</label><br>
+                <label><input type="radio" name="p3" value="b"> Adicción digital, problemas de salud mental y
+                    desequilibrios vida-trabajo</label><br>
+                <label><input type="radio" name="p3" value="c"> Mejora en las relaciones sociales</label><br>
+                <label><input type="radio" name="p3" value="d"> Reducción del estrés cotidiano</label><br>
+
+                <p><strong>4. ¿Cuál de estas es una OPORTUNIDAD del entorno digital?</strong></p>
+                <label><input type="radio" name="p4" value="a"> El uso problemático de internet</label><br>
+                <label><input type="radio" name="p4" value="b"> El impacto negativo en el desarrollo
+                    cognitivo</label><br>
+                <label><input type="radio" name="p4" value="c"> El acceso a la información y el aprendizaje en
+                    línea</label><br>
+                <label><input type="radio" name="p4" value="d"> El tiempo excesivo frente a pantallas</label><br>
+
+                <button onclick="verificar()">Ver resultado</button>
+                <p id="resultado"></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</body>
+
+</html>

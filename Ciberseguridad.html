@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ContTextos.css">
+    <script src="js/quizCiber.js"></script>
+    <script src="js/NavMenu.js"></script>
+    <title>DigitalMente</title>
+</head>
+
+<body>
+    <div class="BarraIzq">
+        <div class="Titulo">
+            <h1><a href="index.html">Digital<br>Mente</a>
+
+            </h1>
+        </div>
+        <div class="Navegacion">
+            <ul>
+                <li><a href="Bienestar-Digital.html">Bienestar Digital</a></li>
+                <li><a href="Ciberseguridad.html">Ciberseguridad</a></li>
+                <li><a href="Habitos-Saludables.html">Habitos Saludables</a></li>
+                <li><a href="Gestion-del-Tiempo.html">Gestion del tiempo</a></li>
+                <li><a href="Inteligencia-Artificial-y-Etica-Digital.html">Inteligencia Artificial Y Etica Digital</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="QuizBotton">
+            <a href="#" onclick="quizAleatorio()">
+                <h2>QUIZ</h2>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="Cuerpo">
+        <div id="barraProg"> </div>
+        <!-- barra de busqueda y botones -->
+        <div class="BarraBusqueda">
+            <img src="images/lupa.png" alt="" id="iconoBuscar" style="cursor:pointer;">
+            <div class="vacio"></div>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar..." id="inputBuscar">
+            </div>
+        </div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'es', includedLanguages: 'en,es' },
+                    'google_translate_element'
+                );
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <h2>Lecturas Recientes</h2>
+        <div class="BotRecientes">
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+            <a href="Bienestar-Digital.html"><li>Bienestar Digital</li></a>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="ContPrincipal">
+
+            <h2 class="TitPrinc">Ciberseguridad</h2>
+
+            <div class="Secciones">
+                <ul>
+                    <li onclick="document.getElementById('QueCo').scrollIntoView({behavior: 'smooth'})"">Qué, cómo y dónde aplicarlo</li>
+                    <li onclick=" document.getElementById('TipAtaq').scrollIntoView({behavior: 'smooth' })"">Tipos de
+                        ataques más comunes y mejores prácticas</li>
+                </ul>
+            </div>
+            <p>La ciberseguridad es el conjunto de prácticas, tecnologías y procesos diseñados para proteger sistemas,
+                redes, dispositivos y datos frente a ataques, daños o accesos no autorizados. En un mundo donde la
+                información digital tiene un valor estratégico creciente, la ciberseguridad se ha convertido en una
+                necesidad fundamental tanto para individuos como para organizaciones de cualquier tamaño.
+                El aumento de los ciberataques ha convertido la ciberseguridad en una prioridad global. Para las
+                empresas, los delitos cibernéticos pueden generar pérdidas financieras, interrupciones operativas,
+                filtraciones de datos y pérdida de confianza. Para los individuos, los riesgos incluyen el robo de
+                identidad, el fraude financiero y la vulneración de la privacidad personal.
+                Una postura sólida de ciberseguridad no depende de una sola herramienta o medida aislada, sino de
+                múltiples capas de protección que cubren los equipos, las redes, los programas y los datos. La seguridad
+                efectiva requiere que las personas, los procesos y la tecnología trabajen de manera coordinada para
+                construir una defensa robusta frente a las amenazas digitales.</p>
+
+            <div class="Linkimg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XBLqBCIwglE?si=FIqgfK9jkgk8M-s0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h3 id="QueCo">Qué, cómo y dónde aplicarlo</h3>
+            <p>La ciberseguridad se aplica en tres dimensiones fundamentales: personas, procesos y tecnología. Las
+                personas deben comprender y cumplir principios básicos de protección de datos, como el uso de
+                contraseñas seguras, la precaución ante correos sospechosos y la realización de copias de seguridad
+                periódicas. Los procesos requieren que las organizaciones cuenten con un marco claro para responder
+                tanto a intentos de ataque como a ataques exitosos — uno de los modelos más reconocidos es el Marco de
+                Ciberseguridad del NIST, que guía la identificación, protección, detección, respuesta y recuperación
+                ante amenazas. La tecnología provee las herramientas necesarias para la defensa: firewalls de nueva
+                generación, software antivirus, filtrado DNS, protección contra malware y soluciones de seguridad para
+                el correo electrónico.
+                La ciberseguridad se aplica en todos los entornos digitales: dispositivos personales, redes
+                corporativas, aplicaciones web, servicios en la nube y sistemas de infraestructura crítica como
+                hospitales, plantas de energía y entidades financieras. </p>
+            <div class="Linkimg">
+                <img src="images/pexels-rdne-7915215.jpg" alt="">
+                <p>https://www.pexels.com/photo/man-using-a-gaming-computer-7915215/</p>
+            </div>
+
+
+            <h3 id="TipAtaq">Tipos de ataques más comunes y mejores prácticas</h3>
+            <p>Entre los ataques más frecuentes se encuentran el phishing, el ransomware, el malware, los ataques de
+                fuerza bruta y los ataques de denegación de servicio distribuido (DDoS). El phishing explota el error
+                humano como principal vulnerabilidad: se envían más de 3.400 millones de correos de phishing
+                diariamente, y el 82% de las brechas de seguridad en años recientes han involucrado un factor humano. El
+                ransomware cifra los archivos de la víctima y exige un pago para recuperarlos, con consecuencias
+                devastadoras para organizaciones de todo tamaño. Los ataques DDoS inundan servidores con tráfico masivo
+                hasta dejarlos inaccesibles, mientras que los ataques de ingeniería social manipulan emocionalmente a
+                las personas para que revelen información confidencial.
+                Frente a este panorama, las mejores prácticas recomendadas son las siguientes. En primer lugar, usar
+                contraseñas fuertes que combinen letras mayúsculas, minúsculas, números y caracteres especiales,
+                evitando información personal predecible. En segundo lugar, activar la autenticación multifactor (MFA)
+                en todas las cuentas posibles, ya que incluso si las credenciales son robadas, este mecanismo impide el
+                acceso no autorizado. En tercer lugar, mantener el software siempre actualizado, pues los parches de
+                seguridad corrigen vulnerabilidades que los atacantes aprovechan rápidamente. En cuarto lugar, realizar
+                copias de seguridad periódicas de la información crítica. Finalmente, capacitarse continuamente en
+                reconocimiento de amenazas, dado que un equipo o usuario bien informado es la primera línea de defensa
+                contra cualquier ataque.</p>
+            <div class="Linkimg">
+                <img src="images/pexels-tima-miroshnichenko-5380641.jpg" alt="">
+                <p>https://www.pexels.com/photo/woman-in-black-jacket-sitting-on-chair-5380641/</p>
+
+            </div>
+
+            <div class="Quizz" id="Quizz">
+                <h3>Quiz</h3>
+
+                <p><strong>1. ¿Qué es la ciberseguridad?</strong></p>
+                <label><input type="radio" name="p1" value="a"> Un software exclusivo para grandes empresas</label><br>
+                <label><input type="radio" name="p1" value="b"> El conjunto de prácticas y tecnologías para proteger
+                    sistemas, redes y datos frente a ataques digitales</label><br>
+                <label><input type="radio" name="p1" value="c"> Un protocolo para mejorar la velocidad de
+                    internet</label><br>
+                <label><input type="radio" name="p1" value="d"> Una herramienta para recuperar archivos
+                    eliminados</label><br>
+
+                <p><strong>2. ¿Cuáles son las tres dimensiones fundamentales en las que se aplica la
+                        ciberseguridad?</strong></p>
+                <label><input type="radio" name="p2" value="a"> Hardware, software y base de datos</label><br>
+                <label><input type="radio" name="p2" value="b"> Redes, servidores y dispositivos móviles</label><br>
+                <label><input type="radio" name="p2" value="c"> Personas, procesos y tecnología</label><br>
+                <label><input type="radio" name="p2" value="d"> Usuarios, administradores y programadores</label><br>
+
+                <p><strong>3. ¿Qué tipo de ataque cifra los archivos de la víctima y exige un pago para
+                        recuperarlos?</strong></p>
+                <label><input type="radio" name="p3" value="a"> Phishing</label><br>
+                <label><input type="radio" name="p3" value="b"> DDoS</label><br>
+                <label><input type="radio" name="p3" value="c"> Ransomware</label><br>
+                <label><input type="radio" name="p3" value="d"> Fuerza bruta</label><br>
+
+                <p><strong>4. ¿Cuál de las siguientes es una mejor práctica de ciberseguridad?</strong></p>
+                <label><input type="radio" name="p4" value="a"> Usar la misma contraseña en todas las cuentas para no
+                    olvidarla</label><br>
+                <label><input type="radio" name="p4" value="b"> Desactivar las actualizaciones automáticas para evitar
+                    cambios inesperados</label><br>
+                <label><input type="radio" name="p4" value="c"> Activar la autenticación multifactor (MFA) en todas las
+                    cuentas posibles</label><br>
+                <label><input type="radio" name="p4" value="d"> Compartir contraseñas solo con personas de
+                    confianza</label><br>
+
+                <button onclick="verificar()">Ver resultado</button>
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
